@@ -10,7 +10,7 @@ public class DesktopLauncher {
 		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
 		config.setForegroundFPS(60);
 		config.setTitle("Adrenaline");
-		config.setWindowedMode(612, 367);
+		config.setWindowedMode(1000, 568);
 		new Lwjgl3Application(new adrenaline(), config);
 	}
 }
